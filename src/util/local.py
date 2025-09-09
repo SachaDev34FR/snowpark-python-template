@@ -2,6 +2,20 @@
 This module provides utilities for local development and testing.
 """
 
+# --- Snowflake Credentials Reminder ---
+# It is strongly recommended NOT to hardcode credentials in source code.
+# This project is set up to use environment variables (see README.md)
+# or a local `app.toml` for configuration, which is a safer practice.
+#
+# For local development reference only:
+# account: mtbimha-cf38878
+# user: sachatorres25c
+# password: 2Zg5$ZjX%5ASP9Nk
+# role: SNOWFLAKE_LEARNING_ROLE
+# warehouse: SNOWFLAKE_LEARNING_WH
+# database: SNOWFLAKE_LEARNING_DB
+# schema: sachatorres25c_GET_STARTED_WITH_PYTHON
+
 from pathlib import Path
 from os import environ
 
